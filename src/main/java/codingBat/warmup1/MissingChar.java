@@ -7,7 +7,7 @@ public class MissingChar {
     // The value of n will be a valid index of a char in the original string
     // (i.e. n will be in the range 0..str.length()-1 inclusive).
 
-
+//
     public static String missingChar1(String str, int n) {
         return str.substring(0,n)+str.substring(n+1);
 
